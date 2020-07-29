@@ -8,6 +8,9 @@ void main()
 	
 	int a;
 	printf("Please enter number(1-9): "); scanf("%d",&a);
+	if(a<1 || a>9){
+		printf("Pon lek u nok khop khet!!!");
+	}
 	
 	int aa(int _a){
 		for(int i=1;i<=_a;i++){
@@ -16,5 +19,6 @@ void main()
 	}
 	
 	aa(a);
+	getch();//youd sua khao
 	
 }
