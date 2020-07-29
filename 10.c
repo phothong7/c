@@ -1,12 +1,19 @@
 //upgrade 10
+
+//i = a
+//j = a*2 and mod 2 (%2) 
+
 #include<stdio.h>
 
 void function(int a)
 {
+	if(a<=0){
+		return;
+	}
 for(int i=1;i<=a;i++){
 	int j= i*2;
 		if(j%2==0){
-			printf("%d\n",i*j);
+			printf("%d = %d\n",i, i*j);
 		}
 	}
 }
@@ -18,4 +25,5 @@ void main(){
 	int in;
 	scanf("%d",&in);
 	function(in);
+	getch();
 }
