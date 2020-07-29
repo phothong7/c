@@ -1,7 +1,7 @@
 //upgrade 10
 #include<stdio.h>
 
-void function(a)
+void function(int a)
 {
 for(int i=1;i<=a;i++){
 	int j= i*2;
