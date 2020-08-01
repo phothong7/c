@@ -17,7 +17,7 @@ int no45no35(){
 		if(last == 3){
 			count3++;
 		}
-		if(last == 5){
+		if(last == 5 || a ==5){
 			count5++;
 		}
 		a++;
